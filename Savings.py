@@ -1,10 +1,14 @@
 
+f = open("Savings.csv", "a")
+# Check if customer has data stored already.
+# If yes, retrieve data
+# If no, Ask all info
 
-def intro():
-    print("-----------------------------------------------------------------------------------------------------")
-    print("Howdy! In order for us to help you achieve your financial goals, we need a little information on you.")
+# BELOW IS FOR NEW USER ON SAVINGS DATA BASE
 
 def savings():
+    print("-----------------------------------------------------------------------------------------------------")
+    print("Howdy! In order for us to help you achieve your financial goals, we need a little information on you.")
     print("-----------------------------------------------------------------------------------------------------\n")
     print("Enter total amount in checking account/s")
     optionOne()
@@ -67,9 +71,6 @@ def optionThree():
 
 def optionFour():
     pass
-
-intro()
-# 
 
 savings()
 # Enter an option
