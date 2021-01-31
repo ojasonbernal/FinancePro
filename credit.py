@@ -40,12 +40,22 @@ class CreditCards:
         # balance = input("Enter the credit balance you have left should be less credit line: ")
 
 class Loans:
-    def __init__(self):
+    def __init__(self,name=None):
         self.name = name
-        self.amount = amount
-        self.monthly_payments
-        self.APR = APR
-    def add_loans(self):
+        self.amount = 0
+        # self.monthly_payments
+        # self.APR
+    def set_name(self,x):
+        self.name = x
+    def setAmmount(self,ammount):
+        self.amount = ammount
+    def getName(self):
+        return self.name
+    def getAmmount(self):
+        return  self.amount
+    def printLoan(self):
+        print("Loan name: ",self.name," $",self.amount)
+
 
 
 
@@ -102,45 +112,46 @@ def validation(data, category):#checks for credit card data validation
 moneyowed = CreditLoans()
 moneyowed.set_crloans(0)
 
-print("Howdy!")
+def SetCreditCards():
+    print("Howdy!")
 
-check = False
-while (not check):
-    name = input("Enter you card name: ")
-    check = validation(name,1)
-    # print(check)
-    if(check):
-        break
+    check = False
+    while (not check):
+        name = input("Enter you card name: ")
+        check = validation(name,1)
+        # print(check)
+        if(check):
+            break
 
-check = False
-while (not check):
-    number = str(input("Enter you card number: "))
-    check = validation(number,2)
-    if(check):
-        break
+    check = False
+    while (not check):
+        number = str(input("Enter you card number: "))
+        check = validation(number,2)
+        if(check):
+            break
 
-check = False
-while(not check):
-    exp = (input("Enter expr month and date in the form MMYY: "))
-    check = validation(exp,3)
-    if (check):
-        break
+    check = False
+    while(not check):
+        exp = (input("Enter expr month and date in the form MMYY: "))
+        check = validation(exp,3)
+        if (check):
+            break
 
-check = False
-while(not check):
-    ccv = (input("Enter CCV: "))
-    check = validation(ccv, 4)
-    if (check):
-        break
+    check = False
+    while(not check):
+        ccv = (input("Enter CCV: "))
+        check = validation(ccv, 4)
+        if (check):
+            break
 
-creditline = input("Enter credit line in $: ")
-balance = input("Enter the credit balance you have left, should be less than credit line: ")
-credit1 = CreditCards(name,number,exp,ccv,creditline,balance)
+    creditline = input("Enter credit line in $: ")
+    balance = input("Enter the credit balance you have left, should be less than credit line: ")
+    credit1 = CreditCards(name,number,exp,ccv,creditline,balance)
 
-loanCheck=input("Do you have any loans/mortgages y/n?: ")
+    loanCheck=input("Do you have any loans/mortgages y/n?: ")
 
-while(loanCheck == "y" or loanCheck =="Y"):
-    Loans
+    while(loanCheck == "y" or loanCheck =="Y"):
+        Loans
 
 
 
