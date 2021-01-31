@@ -37,6 +37,7 @@ def error_prompt_():
             continue
         elif error_prompt.lower() == 'no':
             loop = False
+            print('Thank you and Goodbye.')
             exit()
         elif error_prompt.lower() == 'yes':
             break
@@ -109,6 +110,7 @@ def signup():
                     print('Wrong input for Social Security Number. Acceptable input is a 9-digit number.')
                     error_prompt_()
             else:
+                print('Wrong input for Social Security Number. Acceptable input is a 9-digit number.')
                 error_prompt_()
         while_loop = True
         while while_loop:
