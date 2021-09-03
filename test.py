@@ -41,7 +41,7 @@ def UserCL(userID,returnStatus):
     if (not onSystem):
         CreateLoans(username)
 
-def CreateLoans(userID)
+def CreateLoans(userID):
         user = UserCredit(userID)
         print("Seems like you have no record on file yet. Please add")
         while(True):
