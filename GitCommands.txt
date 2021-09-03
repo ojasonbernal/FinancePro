@@ -1,9 +1,0 @@
-git clone (link to file)
-git status
-git log
-git reflog
-
-How to add files using Git:
-git add (file name)
-git commit -m "Add comment"
-git push
