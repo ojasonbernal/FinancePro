@@ -116,7 +116,7 @@ Jason Bernal - ojasonbernal@gmail.com
 
 LinkedIn: [https://www.linkedin.com/in/ojasonbernal/](https://www.linkedin.com/in/ojasonbernal/)
 
-Project Link: [https://github.com/ojasonbernal/FinancePro.git](https://github.com/ojasonbernal/FinancePro.git)
+Project Link: [https://github.com/ojasonbernal/FinancePro](https://github.com/ojasonbernal/FinancePro)
 
 Devpost Link: [https://devpost.com/software/finance-pro-7hk0aw](https://devpost.com/software/finance-pro-7hk0aw)
 
