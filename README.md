@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a>
-    <img src="FinancePro-Logo.jpg" alt="FinancePro Logo" width="500" height="350">
+    <img src="FinancePro-Logo.jpg" alt="FinancePro Logo" width="500" height="auto">
   </a>
   <h3 align="center">FinancePro</h3>
   <p align="center">
@@ -84,23 +84,23 @@ To get a local copy up and running follow these simple example steps.
 
 Upon executing the program, the user is greeted with the company's slogan and account creation. If the user already exists in the database, the user will simply login. If the user creates an account, the user is prompted to provide financial information to better assess the user's financials and financial goals.
 
-<img src="images/AccountCreation.PNG" alt="Account Creation" width="500" height="400">
+<img src="images/AccountCreation.PNG" alt="Account Creation" width="500" height="auto">
 
 If the user is logging in, the user will have the option to display account info or edit account info.
 
-<img src="images/LoginOptions.PNG" alt="Login Options" width="400" height="150">
+<img src="images/LoginOptions.PNG" alt="Login Options" width="400" height="auto">
 
 If the user chooses to display account info, Option 1, the user will be shown the amount of time it would take to payoff their total debt. This is calculated using the user's provided information such as hourly wage, monthly payment, and total debt.
 
-<img src="images/DebtPayoff.PNG" alt="Debt Payoff" width="400" height="200">
+<img src="images/DebtPayoff.PNG" alt="Debt Payoff" width="400" height="auto">
 
 If the user chooses to edit account info, Option 2, the user will be promted to select the info desired to be changed.
 
-<img src="images/ChangeUserDetails.PNG" alt="Change User Details" width="400" height="75">
+<img src="images/ChangeUserDetails.PNG" alt="Change User Details" width="400" height="auto">
 
 The user will also have the option to provide more information regarding their savings goal and, similarly to the debt payoff, will be shown the amount of time it will take to reach their savings goal.
 
-<img src="images/Savings.PNG" alt="Savings" width="800" height="400">
+<img src="images/Savings.PNG" alt="Savings" width="800" height="auto">
 
 
 <!-- LICENSE -->
